@@ -1,20 +1,12 @@
-body{
+body
+{
     background-image: url("../images/background.jpg");
-    background-repeat: none;
+    background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: cover;
+    background-size: 1536px 753px;
 }
-button{
-    background-color: #4CAF50;
-    color: white;
-    padding: 14px 20px;
-    margin: 8px 0px;
-    width: 100%;
-    border: none;
-    cursor: pointer;
-    opacity: 0.7;
-}
-input.topButtons{
+input.topButtons
+{
     float: right;
     background-color: blue;
     color: white;
@@ -26,23 +18,25 @@ input.topButtons{
 
     margin: 8px 8px 0px 0px;
 }
-input.midButtons{
+#midButtons{
     vertical-align: bottom;
     background-color: rgb(206, 152, 35);
     color: rgb(0, 0, 0);
     padding: 8px;
     cursor: pointer;
-    width: 100px;
+    width: 101px;
     font-weight: 500;
     font-size: 90%;
 
     margin: 8px 8px 0px 0px;
 }
-.middleText{
+.middleText
+{
     font-family: cursive;
     margin-left: 10px;
 }
-.logo-title{
+.logo-title
+{
     font-family:cursive;
     font-size: 50px;
     font-style: italic;
@@ -51,7 +45,8 @@ input.midButtons{
     text-decoration: none;
     margin: 10px 10px 0px 10px;
 }
-.container { 
+.container
+{ 
     height: 200px;
     position: relative;
     border: 0px solid rgb(0, 0, 0); 
@@ -61,11 +56,12 @@ input.midButtons{
     margin: 0;
     position: absolute;
     top: 100%;
-    left: 51%;
+    left: 49%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
-h1{
+h1
+{
     text-align: center;
     font-family: "Brush Script MT", cursive;
 }
